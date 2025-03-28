@@ -1,0 +1,251 @@
+body{
+    font-family: century gothic;
+    margin:0;
+    padding:0;
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    top:0;
+   
+}
+
+
+.div1, img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    width:100%;
+}
+
+.div1, img::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: -1;
+}
+
+.div2{
+    user-select: none;
+    height: 260px;
+    width: 200px;
+    margin-top:500px;
+    color: white;
+    margin-left:120px;
+    text-align: justify;
+}
+
+.hb{
+    font-size: 20px;
+}
+.px{
+    font-size: 20px;
+}
+.a2{
+    font-size: 12px;
+  
+}
+
+.he{
+    font-size: 55px;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #ff6a00, #ee0979, #00c3ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientMove 3s infinite linear;
+    background-size: 300% 300%;
+}
+
+
+
+.pic1{
+    position: absolute;
+    left: 90px;
+    top: 10px;
+    width: 80px;
+    height: 70px;
+    user-select: none;
+}
+ .title{
+    position:absolute;
+     left: 170px;
+     top: 2px;
+     font-size: 35px;
+      text-transform: uppercase;
+    background: linear-gradient(90deg, #ff6a00, #ee0979, #00c3ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientMove 3s infinite linear;
+    background-size: 300% 300%;
+    
+}
+
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+
+nav{
+    float:right;
+    margin-right:100px;
+    margin-top: 36px;
+}
+
+.nav1{
+    float:right;
+    margin-right:100px;
+    margin-top: 16px;
+}
+
+
+.bn{
+    background-image: url('images/back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:fixed;
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+ }
+
+.lg{
+    width: 450px;
+    height: 410px;
+    background-image: url('images/ah.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 430px;
+    margin-top: 90px;
+    border-radius: 15px;
+    border: solid 3px;
+    position: relative;
+    
+ }
+
+ .lg:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+ }
+
+ .lag{
+    text-align: center;
+    padding: 65px;
+    color: white;
+ }
+
+ .lag h1{
+    font-size: 45px;
+    position: relative;
+    z-index: 2;
+ }
+ 
+ .ip{
+    position: relative;
+    z-index: 2;
+    padding: 3px;
+    border-radius: 3px;
+    border: solid 1px ;
+    box-shadow: 2px 2px rgb(216, 180, 216);
+ }
+
+ .ap{
+    position: relative;
+    z-index: 2;
+    padding: 3px;
+    border-radius: 3px;
+    border: solid 1px ;
+    box-shadow: 2px 2px rgb(216, 180, 216);
+ }
+ .b6{
+    position: relative;
+    z-index: 2;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+ }
+
+a:link{
+    text-decoration:none;
+    color:white;        
+    font-size:10px;
+    padding:10px;
+    margin-right: 10px;
+    margin-left: 40px;
+    background-color: black;
+    border-radius: 8px;
+    border: solid 5px #fff;
+    box-shadow: 5px 5px #9fa8a0a6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:visited{
+    color:white
+}       
+
+a:hover{
+  background: linear-gradient(red,blue);
+  border-radius:30px;
+}
+
+.vi{
+    height: 250px;
+    width: 350px;
+    border:solid 2px;
+    border-radius: 30px;
+    margin-right: 100px;
+    margin-top: -730px;
+    position: relative;
+    overflow: hidden;
+    left: 850px;
+}
+
+.vi video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    width: 100%;
+  height: 100%;
+}
+
+.a8{
+    position: relative;
+    z-index: 10;
+    right: 21px;
+    top:10px;
+}
+.remember{
+    position: relative;
+    z-index: 10;
+    right:21px;
+    
+}
+
+.duv{
+    margin-top:540px;
+    margin-left:530px;
+    font-size:30px;
+}
+
+
+.dav{
+    margin-top:-100px;
+    margin-left:600px;
+    font-size:30px;
+    position:relative;
+    z-idex:10;
+}

@@ -1,0 +1,459 @@
+body{
+    font-family: century gothic;
+    margin:0;
+    padding:0;
+    background-image: url('images/bock.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    background-position: center;
+
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    top:0;
+   
+}
+
+.pic1{
+    position: absolute;
+    left: 90px;
+    top: 10px;
+    width: 80px;
+    height: 70px;
+    user-select: none;
+}
+ .title{
+    position:absolute;
+     left: 170px;
+     top: 2px;
+     font-size: 35px;
+      text-transform: uppercase;
+    background: linear-gradient(90deg, #ff6a00, #ee0979, #00c3ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientMove 3s infinite linear;
+    background-size: 300% 300%;
+    
+}
+
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+
+nav{
+    float:right;
+    margin-right:100px;
+    margin-top: 33px;
+}
+
+.body::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: -1;
+}
+
+.lok{
+    text-decoration:none;
+    color:white;        
+    font-size:10px;
+    padding:10px;
+    margin-right: 10px;
+    margin-left: 40px;
+    background-color: black;
+    border-radius: 8px;
+    border: solid 5px #fff;
+    box-shadow: 5px 5px #9fa8a0a6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.lok:visited{
+    color:white
+}       
+
+.lok:hover{
+  background: linear-gradient(red,blue);
+  border-radius:30px;
+}
+
+
+.slidi{
+    color:white;
+    height:2770px;
+    width:85%;
+    border:solid 2px;
+    border-radius:10px;
+    margin-left:107px;
+    position:relative;
+    margin-top:25px;
+    background-color: black;
+    margin-bottom: 30px;
+    font-family: Comic Sans MS;
+}
+
+.slidi h2{
+    margin-left: 40px;
+}
+
+.skidi img{
+   margin-left: 30px;
+    margin-top: 50px;
+    border: solid 1px white;
+    width: 90%;
+    height: 100%;
+    transition: 0.5s ease;
+}
+
+.skidi img:hover{
+    transform: scale(1.05);
+}
+
+.red{
+    margin-top: 80px;
+    margin-left: 30px;
+    border: solid 2px #f54141;
+    height: 2100px;
+    width: 55%;
+    font-family: Comic Sans MS;
+    
+}
+
+.red h1{
+    text-align:center;
+    color:white;
+   text-shadow: 0 0 10px #f54141;
+   background: linear-gradient(to bottom, #ff0000, #8b0000);
+   width: 40%;
+   border: solid 2px red;
+   box-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red;
+   border-radius: 2px;
+   margin-left: 184px;
+   margin-top: -22px;
+   font-size: 26px;
+
+}
+
+.text p{
+    color: rgb(126, 5, 5);
+    font-size: 13px;
+    display: inline;
+    margin-left: 72px;
+    margin-right:-14px;
+   text-shadow: 0 0 2px #f54141;
+}
+
+.hr1{
+    margin-right: 9px;
+    margin-left: 9px;
+}
+
+.tat{
+    font-size: 13px;
+    text-align: justify;
+    width: 90%;
+    margin-left: 23px;
+}
+
+.hr2{
+    background-color:#f54141;
+    border: none;
+    height: 3px;
+    margin-top: 31px;
+}
+
+.contain img{
+    height:200px;
+    width: 240px;
+    box-shadow: 0 0 10px red, 0 0 5px red, 0 0 10px red;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 30px;
+    transition: 0.5s ease;
+}
+
+.contain img:hover{
+    transform: scale(1.05);
+}
+
+.contains img{
+    height:200px;
+    width: 240px;
+    box-shadow: 0 0 10px red, 0 0 5px red, 0 0 10px red;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 340px;
+    margin-top:-207px;
+    transition: 0.5s ease;
+
+}
+
+.contains img:hover{
+    transform: scale(1.05);
+}
+ .aff{
+    height: 60px;
+    width: 30px;
+    padding: 10px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+ }
+
+ .aff img{
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+ .aff1{
+    height: 60px;
+    width: 30px;
+    padding: 10px;
+    margin-bottom: 25px;    
+    margin-left: 300px;
+    margin-top: -115px;
+ }
+
+ .aff1 img{
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ 
+ .p8{
+     margin-top:600px;
+     margin-left:30px;
+     font-size:15px;
+     
+ }
+ 
+ .red2{
+     margin-top:-2106px;
+    margin-left: 690px;
+    border: solid 2px #f54141;
+    height: 2100px;
+    width: 33%;
+    font-family: Comic Sans MS;
+ }
+
+
+ 
+.red2 h1{
+    text-align:center;
+    color:white;
+   text-shadow: 0 0 10px #f54141;
+   background: linear-gradient(to bottom, #ff0000, #8b0000);
+   width: 94%;
+   border: solid 2px red;
+   box-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red;
+   border-radius: 2px;
+   margin-top: -22px;
+   font-size: 26px;
+   margin-left:8px;
+
+}
+
+
+.logs img{
+    height:55%;
+    width:55%;
+    margin-left:70px;
+}
+
+.logs p{
+    font-size:21px;
+    text-align:justify;
+    padding:5px;
+    margin-top:-5px;
+}
+.x{
+color:red;
+}
+
+.logs{
+    width:75%;
+    margin-left:40px;
+}
+
+
+.slede{
+    height:450px;
+    width:84%;
+    border:solid 2px white;
+    margin-left:27px;
+    margin-top:25px;
+    position:relative;
+}
+
+
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  animation: slide 12s infinite;
+}
+
+.slide1 {
+  background-image: url('images/solo.gif');
+  animation-delay: 0s;
+}
+
+.slide2 {
+  background-image: url('images/sun.gif');
+  animation-delay: 4s;
+}
+
+.slide3 {
+  background-image: url('images/back.jpg');
+  animation-delay: 8s;
+}
+
+@keyframes slide {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.sup{
+    width:82%;
+    height:35ppx;
+    text-align:center;
+    font-size:25px;
+    margin-left:27px;
+}
+
+.tok{
+    height:45px;
+    width:24%;
+    background-color:black;
+    border:solid 1px;
+    border-radius:4px;
+    margin-left:37%;
+    text-align:center;
+    margin-top:20px;
+    box-shadow: 0 0 10px red, 0 0 8px red, 0 5px red;
+    color:white;
+}
+
+.tok h5{
+    font-size:18px;
+    margin-top:12px;
+}
+
+.tok h5:hover{
+    font-size:20px;
+    border-radius:5px;
+}
+
+.ab{
+    text-decoration:none;
+}
+
+.ola img{
+    margin-top:80px;
+    margin-left:70px;
+}
+
+.hbn{
+  text-align: center;
+  margin-right: 20px;
+}
+
+.footer1{
+    margin-left: 25px;
+    border: solid 2px #f54141;
+    width: 93%;
+    font-family: Comic Sans MS;
+    height:16%;
+    margin-top:50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.footer1 h1{
+    user-select: none;
+    color:white;
+   text-shadow: 0 0 10px #f54141;
+   background: linear-gradient(to bottom, #ff0000, #8b0000);
+   width: 50%;
+   border: solid 2px red;
+   box-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red;
+   border-radius: 2px;
+   margin-top: -22px;
+   font-size: 26px;
+   margin-left:250px;
+}
+
+.elg img{
+    margin-top:30px;
+   height: 300px;
+   width: 90%;
+    transition: 0.5s ease;
+}
+
+.elg img:hover{
+    transform: scale(1.07);
+}
+
+
+footer{
+    background-color:black;
+    width: 100%;
+    height: 190px;
+   border-radius: 5px;
+}
+
+footer h1{
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #ff6a00, #ee0979, #00c3ff);
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientMove 3s infinite linear;
+    text-align:center;
+}
+
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+footer img{
+   padding: 5px;
+    height: 40px;
+    width: 40px;
+    margin-right: 5px;
+}
+
+.lom{
+    margin-left: 530px;
+}
+
+footer p{
+    color:white;
+    text-align:center;
+}
+
+.lb{
+    text-decoration: none;
+}
